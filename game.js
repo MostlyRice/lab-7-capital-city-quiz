@@ -7,7 +7,6 @@ let playAgainButton = document.querySelector("#play_again");
 // Declaring URL as a global variable
 let url = ""
 
-
 // finish the script to challenge the user about their knowledge of capital cities.
 // An array of country codes is provided in the countries.js file. 
 // Your browser treats all JavaScript files as one big file,
