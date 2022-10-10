@@ -48,7 +48,7 @@ console.log(url)
 submitButton.addEventListener('click', function () {
     fetch(url).then( (response) => {
         if (response.ok){
-            return response.json()
+            return response.json();
         } else {
             resultTextElement.innerHTML = "Error: This data isn't available at the time.";
             throw new Error("This data isn't available at the time.");
