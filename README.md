@@ -1,5 +1,5 @@
-# Week 6 Lab: JavaScript Libraries, Maps and Charts
+# Week 7 Lab: Capital City Quiz
 
-Week 6 Lab for MCTC's Web Client and Server Programming class.
+Week 7 Lab for MCTC's Web Client and Server Programming class.
 
-This lab is being hosted on [Github pages](https://mostlyrice.github.io/Week-6-Lab/)
+This lab is being hosted on [Github pages](https://mostlyrice.github.io/Week-7-Lab/)
