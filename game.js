@@ -18,8 +18,11 @@ let url = ""
 // Function to pick a random country
 function loadRandomCountry() {
 let random_country_code = countriesAndCodes[Math.floor(Math.random() * countriesAndCodes.length)];
+console.log(random_country_code)
 let countryCode = random_country_code["alpha-2"];
+console.log(countryCode)
 url = 'http://api.worldbank.org/v2/country/' + countryCode + '?format=json';
+console.log(url)
 
 // Display the country's name in the randomCountryElement 
 randomCountryElement.innerHTML = random_country_code.name;
@@ -29,6 +32,7 @@ return url;
 
 // When the page loads, select an element at random from the countriesAndCodes array
 loadRandomCountry(url);
+console.log(url)
 
 // When the user clicks the button,
 //  * read the text from the userAnswerElement 
