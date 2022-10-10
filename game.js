@@ -20,7 +20,7 @@ let random_country_code = countriesAndCodes[Math.floor(Math.random() * countries
 console.log(random_country_code)
 let countryCode = random_country_code["alpha-2"];
 console.log(countryCode)
-url = 'http://api.worldbank.org/v2/country/' + countryCode + '?format=json';
+url = 'https://api.worldbank.org/v2/country/' + countryCode + '?format=json';
 console.log(url)
 
 // Display the country's name in the randomCountryElement 
